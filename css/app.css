@@ -1,0 +1,47 @@
+.main{
+    height: 100vh;
+    background: rgb(246, 243, 238);
+}
+h1{
+    color: #858687;
+    font-weight: 600;
+}
+p{
+    color: #858687;
+    font-weight: 400;
+}
+.hills{
+    position: absolute;
+    bottom: 0;
+    z-index: 0;
+    animation-duration: .5s;
+    animation-delay: 1s;
+}
+.juniorMain{
+    height: 64vh;
+}
+.hill1Parent{
+    margin-top: 16%;
+    animation-duration: 1.5s;
+    animation-delay: 1.5s;
+}
+.hill2Parent{
+    margin-top: 8%;
+    animation-duration: 1.5s;
+    animation-delay: 1.5s;
+}
+.textParent{
+    margin-top: 8%;
+    animation-duration: 2s;
+    animation-delay: 2.5s;
+}
+.button.hollow.warning{
+    border: 1px solid #858687;
+    color: #858687;
+    border-radius: 24px;
+}
+.button.hollow.warning:hover{
+    border: 1px solid transparent;
+    color: #000;
+    background: #fbe958;
+}
