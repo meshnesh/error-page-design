@@ -14,26 +14,30 @@ p{
     position: absolute;
     bottom: 0;
     z-index: 0;
-    animation-duration: .5s;
-    animation-delay: 1s;
+    animation-duration: 1s;
+    /*animation-delay: 1.5s;*/
+    display:none;
 }
 .juniorMain{
     height: 64vh;
 }
 .hill1Parent{
     margin-top: 16%;
-    animation-duration: 1.5s;
-    animation-delay: 1.5s;
+    animation-duration: 1s;
+    /*animation-delay: 1.5s;*/
+     display:none;
 }
 .hill2Parent{
     margin-top: 8%;
-    animation-duration: 1.5s;
-    animation-delay: 1.5s;
+    animation-duration: 1s;
+    /*animation-delay: 1.5s;*/
+     display:none;
 }
 .textParent{
     margin-top: 8%;
     animation-duration: 2s;
-    animation-delay: 2.5s;
+    /*animation-delay: 2.5s;*/
+     display:none;
 }
 .button.hollow.warning{
     border: 1px solid #858687;
